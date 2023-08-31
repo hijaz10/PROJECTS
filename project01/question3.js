@@ -2,9 +2,6 @@
    Sample input: [1, 2, 4, 7, 9]
    Expected output: true*/
 
-
-
-
 function ascending(arr) {
     for (var i = 1; i < arr.length; i++) {
         if (arr[i] < arr[i - 1]) {
