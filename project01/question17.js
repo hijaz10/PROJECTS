@@ -11,10 +11,7 @@ Expected output: [
 ]
 */
 function sort(songs) {
-  // Create a copy of the input array to avoid modifying the original
-
   
-  // Sort the copied array based on the 'duration' property of each object
   var sortedSongs=songs.sort((a, b) => a.duration - b.duration);
 
   return sortedSongs;
@@ -27,5 +24,4 @@ var sample = [
 ];
 
 var result = sort(sample);
-
 console.log(result); 
